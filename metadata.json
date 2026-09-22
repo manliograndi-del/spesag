@@ -1,0 +1,6 @@
+{
+  "name": "Spesa",
+  "description": "Offerte e volantini dei supermercati vicini a corso Siracusa (Torino)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
