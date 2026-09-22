@@ -128,6 +128,13 @@ Pubblicata in due posti, **e vanno aggiornati tutti e due**:
   novità nuove si aggiungono in fondo a `NOVITA_PAGINA` in `pagina.py`, con la
   data davanti all'id: chi le ha già viste vedrà comparire **solo quella
   nuova**.
+- **La marca ha un bollino colorato ed è scritta TUTTA IN MAIUSCOLO** (chiesto il
+  2026-09-22): risalta subito in ogni offerta (indaco/blu), sia nell'elenco che
+  nella ricerca e nelle offerte del volantino.
+- **Suino, Pollo e Salmone sempre presenti con offerte dedicate** (chiesto il
+  2026-09-22): Suino (lonza, arista, braciole, costine) e Pollo (petto a fette,
+  cosce, fusi) in Macelleria & Salumi, Salmone (fresco, tranci, affumicato) in
+  Pesce & Surgelati. Tutti e tre sono accesi di default nei prodotti principali.
 - **Una novità falsa è peggio di nessuna novità: manda uno in negozio.** Vale
   per il diario e per i prezzi: se un conto è ambiguo (peso sgocciolato, prezzo
   valido solo comprandone tre), si sceglie il numero che NON fa sembrare

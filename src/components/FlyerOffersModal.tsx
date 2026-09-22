@@ -111,8 +111,8 @@ export const FlyerOffersModal: React.FC<FlyerOffersModalProps> = ({
               >
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center gap-2 flex-wrap mb-1">
-                    <span className="text-xs font-bold text-gray-800 bg-white px-2 py-0.5 rounded border border-gray-200">
-                      {offer.marca}
+                    <span className="inline-flex items-center text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-indigo-100 text-indigo-900 border border-indigo-200 shadow-2xs">
+                      {offer.marca.toUpperCase()}
                     </span>
                     <span className="text-xs text-gray-600">
                       Formato: {offer.formato}

@@ -129,9 +129,9 @@ export const OffersList: React.FC<OffersListProps> = ({
                         {offer.insegna} ({offer.negozio})
                       </span>
 
-                      {/* Marca */}
-                      <span className="text-xs font-semibold text-gray-800 bg-gray-100 px-2 py-0.5 rounded-md">
-                        {offer.marca}
+                      {/* Marca: bollino colorato e maiuscolo */}
+                      <span className="inline-flex items-center text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-md bg-indigo-100 text-indigo-900 border border-indigo-200 shadow-2xs">
+                        {offer.marca.toUpperCase()}
                       </span>
 
                       {/* Validità date */}

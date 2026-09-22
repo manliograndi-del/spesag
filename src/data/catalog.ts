@@ -47,8 +47,9 @@ export const CATALOG: Product[] = [
   { id: 'formaggio_spalmabile', nome: 'Formaggio spalmabile', repartoId: 'freschi', unitaMisura: 'kg' },
   { id: 'formaggi_fette', nome: 'Formaggi a fette', repartoId: 'freschi', unitaMisura: 'kg' },
 
-  // 4. Macelleria & Salumi (8 voci)
-  { id: 'pollo', nome: 'Petto di pollo', repartoId: 'macelleria', unitaMisura: 'kg' },
+  // 4. Macelleria & Salumi
+  { id: 'suino', nome: 'Suino (lonza, arista, braciole, costine)', repartoId: 'macelleria', unitaMisura: 'kg' },
+  { id: 'pollo', nome: 'Pollo (petto a fette, cosce, fusi)', repartoId: 'macelleria', unitaMisura: 'kg' },
   { id: 'macinato', nome: 'Macinato di manzo', repartoId: 'macelleria', unitaMisura: 'kg' },
   { id: 'prosciutto_cotto', nome: 'Prosciutto cotto', repartoId: 'macelleria', unitaMisura: 'kg' },
   { id: 'prosciutto_crudo', nome: 'Prosciutto crudo', repartoId: 'macelleria', unitaMisura: 'kg' },
@@ -57,10 +58,10 @@ export const CATALOG: Product[] = [
   { id: 'salsiccia', nome: 'Salsiccia e verzini', repartoId: 'macelleria', unitaMisura: 'kg' },
   { id: 'hamburger', nome: 'Hamburger e svizzere', repartoId: 'macelleria', unitaMisura: 'kg' },
 
-  // 5. Pesce & Surgelati (8 voci)
+  // 5. Pesce & Surgelati
+  { id: 'salmone', nome: 'Salmone (fresco, tranci, affumicato)', repartoId: 'pesce_surgelati', unitaMisura: 'kg' },
   { id: 'merluzzo', nome: 'Filetti di merluzzo', repartoId: 'pesce_surgelati', unitaMisura: 'kg' },
   { id: 'pesce_fresco', nome: 'Orata e spigola fresca', repartoId: 'pesce_surgelati', unitaMisura: 'kg' },
-  { id: 'salmone', nome: 'Salmone affumicato e fresco', repartoId: 'pesce_surgelati', unitaMisura: 'kg' },
   { id: 'bastoncini', nome: 'Bastoncini di pesce', repartoId: 'pesce_surgelati', unitaMisura: 'kg' },
   { id: 'minestrone', nome: 'Minestrone surgelato', repartoId: 'pesce_surgelati', unitaMisura: 'kg' },
   { id: 'pizza_surgelata', nome: 'Pizza surgelata', repartoId: 'pesce_surgelati', unitaMisura: 'kg' },
@@ -98,11 +99,13 @@ export const CATALOG: Product[] = [
 
 // Manlio's default active products on first load
 export const DEFAULT_ACTIVE_PRODUCT_IDS = [
+  'suino',
+  'pollo',
+  'salmone',
   'pasta',
   'olio_evo',
   'caffe',
   'latte',
-  'pollo',
   'tonno',
   'carta_igienica',
   'detersivo_lavatrice',

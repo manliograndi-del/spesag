@@ -111,8 +111,8 @@ export const PriceSearch: React.FC<PriceSearchProps> = ({
                           <Store className="w-3 h-3 text-red-600" />
                           {offer.insegna} ({offer.negozio})
                         </span>
-                        <span className="text-[11px] font-semibold text-red-700 bg-red-50 px-2 py-0.5 rounded-md border border-red-200">
-                          {offer.marca}
+                        <span className="inline-flex items-center text-[11px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-indigo-100 text-indigo-900 border border-indigo-200 shadow-2xs">
+                          {offer.marca.toUpperCase()}
                         </span>
                         <span className="inline-flex items-center gap-1 text-[11px] text-gray-500">
                           <Calendar className="w-3 h-3" />
